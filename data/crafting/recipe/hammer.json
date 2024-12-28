@@ -22,14 +22,14 @@
           {
             "type": "minecraft:attack_speed",
             "id": "minecraft:",
-            "amount": -0.5,
+            "amount": -0.75,
             "operation": "add_multiplied_total",
             "slot": "mainhand"
           },
           {
             "type": "minecraft:attack_damage",
             "id": "minecraft:",
-            "amount": 0.5,
+            "amount": 2,
             "operation": "add_multiplied_base",
             "slot": "mainhand"
           }
