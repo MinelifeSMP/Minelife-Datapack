@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "A",
+    "S",
+    "S"
+  ],
+  "key": {
+    "A": "minecraft:anvil",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "components": {
+      "minecraft:custom_name": "{\"bold\":true,\"color\":\"gray\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Hammer\",\"underlined\":false}",
+      "minecraft:item_model": "custom:hammer",
+      "minecraft:unbreakable": {
+        "show_in_tooltip": false
+      },
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:attack_speed",
+            "id": "minecraft:",
+            "amount": -0.5,
+            "operation": "add_multiplied_total",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:attack_damage",
+            "id": "minecraft:",
+            "amount": 0.5,
+            "operation": "add_multiplied_base",
+            "slot": "mainhand"
+          }
+        ],
+        "show_in_tooltip": true
+      }
+    },
+    "count": 1,
+    "id": "minecraft:iron_axe"
+  }
+}
