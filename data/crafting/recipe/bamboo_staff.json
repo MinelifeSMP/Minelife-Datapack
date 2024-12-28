@@ -33,7 +33,8 @@
             "slot": "mainhand"
           }
         ]
-      }
+      },
+      "minecraft:enchantment_glint_override": false
     },
     "count": 1,
     "id": "minecraft:wooden_sword"
