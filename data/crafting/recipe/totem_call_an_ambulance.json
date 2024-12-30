@@ -34,7 +34,7 @@
           },
           {
             "type": "minecraft:play_sound",
-            "sound": "custom:call_an_ambulance"
+            "sound": "minecraft:item.totem.use"
           }
         ]
       },
