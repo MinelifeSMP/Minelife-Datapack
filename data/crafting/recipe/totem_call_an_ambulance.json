@@ -1,16 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:stonecutting",
   "group": "totems",
-  "category": "equipment",
-  "ingredients": [
-    "minecraft:totem_of_undying",
-    "minecraft:golden_apple"
-  ],
+  "ingredient": "minecraft:totem_of_undying",
   "result": {
     "id": "minecraft:totem_of_undying",
     "components": {
-      "minecraft:item_model": "custom:totem_call_an_ambulance",
       "minecraft:item_name": "{\"text\":\"Call An Ambulance Totem\",\"italic\":false,\"bold\":true,\"color\":\"red\"}",
+      "minecraft:item_model": "custom:totem_call_an_ambulance",
       "minecraft:death_protection": {
         "death_effects": [
           {
@@ -38,12 +34,16 @@
           },
           {
             "type": "minecraft:play_sound",
-            "sound": "custom:call_an_ambulance"
+            "sound": {
+              "sound_id": "custom:call_an_ambulance",
+              "range": 50
+            }
           }
         ]
       },
       "minecraft:lore": [
-        "\"But not for me!\""
+        "\"But not for me!\"",
+        "\"(Does not call an ambulance)\""
       ]
     },
     "count": 1

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "totems",
+  "ingredient": "minecraft:totem_of_undying",
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+      "minecraft:item_name": "{\"bold\":true,\"color\":\"blue\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Jo_0924 Totem\",\"underlined\":false}",
+      "minecraft:item_model": "custom:totem_jo_0924",
+      "minecraft:lore": [
+        "\"Found in an insanely powerful Villager Breeder\""
+      ]
+    },
+    "count": 1
+  }
+}

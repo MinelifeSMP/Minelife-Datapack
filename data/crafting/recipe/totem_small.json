@@ -1,11 +1,7 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:stonecutting",
   "group": "totems",
-  "category": "equipment",
-  "ingredients": [
-    "minecraft:totem_of_undying",
-    "minecraft:gold_nugget"
-  ],
+  "ingredient": "minecraft:totem_of_undying",
   "result": {
     "id": "minecraft:totem_of_undying",
     "components": {
