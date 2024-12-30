@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "totems",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:totem_of_undying",
+    "minecraft:blackstone"
+  ],
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+      "minecraft:item_model": "custom:totem_tekeyn",
+      "minecraft:item_name": "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Tekeyn Totem\",\"underlined\":false}",
+      "minecraft:lore": [
+        "\"Infused with old dwarven wisdom\""
+      ]
+    },
+    "count": 1
+  }
+}

@@ -1,7 +1,11 @@
 {
-  "type": "minecraft:stonecutting",
+  "type": "minecraft:crafting_shapeless",
   "group": "totems",
-  "ingredient": "minecraft:totem_of_undying",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:totem_of_undying",
+    "minecraft:golden_apple"
+  ],
   "result": {
     "id": "minecraft:totem_of_undying",
     "components": {
@@ -34,7 +38,7 @@
           },
           {
             "type": "minecraft:play_sound",
-            "sound": "minecraft:item.totem.use"
+            "sound": "custom:call_an_ambulance"
           }
         ]
       },

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "totems",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:totem_of_undying",
+    "minecraft:coal"
+  ],
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+      "minecraft:item_model": "custom:totem_doncoaleone",
+      "minecraft:item_name": "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"DonCoaleone Totem\",\"underlined\":false}",
+      "minecraft:lore": [
+        "\"Why should I be afraid now?\"",
+        "\"Strange men have come to kill me ever since I was twelve years old.\""
+      ]
+    },
+    "count": 1
+  }
+}
