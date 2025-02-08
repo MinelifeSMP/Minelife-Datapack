@@ -3,6 +3,6 @@
     "description": "Craemon - Ancient Tales",
     "length_in_seconds": 46.0,
     "sound_event": {
-      "sound_id": "minecraft:music_disc.ancient_tales"
+      "sound_id": "custom:music_disc.ancient_tales"
     }
  }
