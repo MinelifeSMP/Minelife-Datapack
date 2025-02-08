@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#minecraft:music_discs",
+  "result": {
+    "id": "minecraft:music_disc_11",
+    "components": {
+      "minecraft:jukebox_playable": {
+        "song": "music:ancient_tales",
+        "show_in_tooltip": true
+      },
+      "minecraft:item_model": "custom:music_disc_ancient_tales"
+    },
+    "count": 1
+  }
+}
