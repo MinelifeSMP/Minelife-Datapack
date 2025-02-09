@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:mace",
+    "addition": "minecraft:iron_ingot",
+    "template": "minecraft:iron_ingot",
+    "result": {
+      "id": "minecraft:mace",
+      "components": {
+        "minecraft:item_model": "custom:3d_mace"
+      },
+      "count": 1
+    }
+  }
