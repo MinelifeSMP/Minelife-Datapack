@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "minecraft:flint"
+    ],
+    "result": {
+      "id": "minecraft:flint",
+      "components": {
+        "minecraft:item_model": "custom:sofa_a"
+      },
+      "count": 1
+    }
+  }
