@@ -4,8 +4,8 @@
   "result": {
     "id": "minecraft:flint",
     "components": {
-      "minecraft:item_model": "custom:sofa_a",
-      "minecraft:item_name": "\"Sofa (Type A)\""
+      "minecraft:item_model": "custom:sofa_b",
+      "minecraft:item_name": "\"Sofa (Type B)\""
     },
     "count": 1
   }
