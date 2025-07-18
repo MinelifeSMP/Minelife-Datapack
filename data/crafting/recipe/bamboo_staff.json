@@ -11,7 +11,15 @@
   },
   "result": {
     "components": {
-      "minecraft:custom_name": "{\"bold\":true,\"color\":\"dark_green\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Bamboo Staff\",\"underlined\":false}",
+      "minecraft:custom_name": {
+        "text": "Bamboo Staff",
+        "color": "dark_green",
+        "bold": true,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      },
       "minecraft:item_model": "custom:bamboo_staff",
       "minecraft:unbreakable": {
         "show_in_tooltip": false
