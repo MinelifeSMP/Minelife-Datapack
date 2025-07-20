@@ -5,7 +5,15 @@
   "result": {
     "id": "minecraft:totem_of_undying",
     "components": {
-      "minecraft:item_name": "{\"bold\":true,\"color\":\"blue\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Jo_0924 Totem\",\"underlined\":false}",
+      "minecraft:item_name": {
+        "text": "Jo_0924 Totem",
+        "color": "blue",
+        "bold": true,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      },
       "minecraft:item_model": "custom:totem_jo_0924",
       "minecraft:lore": [
         "\"Found in an insanely powerful Villager Breeder\""

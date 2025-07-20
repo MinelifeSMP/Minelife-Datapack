@@ -6,7 +6,15 @@
     "id": "minecraft:totem_of_undying",
     "components": {
       "minecraft:item_model": "custom:totem_tekeyn",
-      "minecraft:item_name": "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Tekeyn Totem\",\"underlined\":false}",
+      "minecraft:item_name": {
+        "text": "Tekeyn Totem",
+        "color": "green",
+        "bold": true,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      },
       "minecraft:lore": [
         "\"Infused with old dwarven wisdom\""
       ]

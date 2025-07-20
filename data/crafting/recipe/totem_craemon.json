@@ -6,7 +6,24 @@
     "id": "minecraft:totem_of_undying",
     "components": {
       "minecraft:item_model": "custom:totem_craemon",
-      "minecraft:item_name": "[{\"bold\":true,\"color\":\"#00B3FF\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"C\",\"underlined\":false},{\"bold\":true,\"color\":\"#06B9EA\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"r\",\"underlined\":false},{\"bold\":true,\"color\":\"#0DC0D5\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"a\",\"underlined\":false},{\"bold\":true,\"color\":\"#13C6BF\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"e\",\"underlined\":false},{\"bold\":true,\"color\":\"#1ACCAA\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"m\",\"underlined\":false},{\"bold\":true,\"color\":\"#20D395\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"o\",\"underlined\":false},{\"bold\":true,\"color\":\"#27D980\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"n \",\"underlined\":false},{\"bold\":true,\"color\":\"#2DDF6A\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"T\",\"underlined\":false},{\"bold\":true,\"color\":\"#33E655\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"o\",\"underlined\":false},{\"bold\":true,\"color\":\"#3AEC40\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"t\",\"underlined\":false},{\"bold\":true,\"color\":\"#40F22B\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"e\",\"underlined\":false},{\"bold\":true,\"color\":\"#4DFF00\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"m\",\"underlined\":false}]",
+      "minecraft:item_name": {
+        "text": "C",
+        "extra": [
+          {"text": "r", "color": "#06B9EA", "bold": true},
+          {"text": "a", "color": "#0DC0D5", "bold": true},
+          {"text": "e", "color": "#13C6BF", "bold": true},
+          {"text": "m", "color": "#1ACCAA", "bold": true},
+          {"text": "o", "color": "#20D395", "bold": true},
+          {"text": "n ", "color": "#27D980", "bold": true},
+          {"text": "T", "color": "#2DDF6A", "bold": true},
+          {"text": "o", "color": "#33E655", "bold": true},
+          {"text": "t", "color": "#3AEC40", "bold": true},
+          {"text": "e", "color": "#40F22B", "bold": true},
+          {"text": "m", "color": "#4DFF00", "bold": true}
+        ],
+        "color": "#00B3FF",
+        "bold": true
+      },
       "minecraft:death_protection": {
         "death_effects": [
           {"type":"minecraft:clear_all_effects"},

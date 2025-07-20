@@ -6,7 +6,15 @@
     "id": "minecraft:totem_of_undying",
     "components": {
       "minecraft:item_model": "custom:totem_doncoaleone",
-      "minecraft:item_name": "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"DonCoaleone Totem\",\"underlined\":false}",
+      "minecraft:item_name": {
+        "text": "DonCoaleone Totem",
+        "color": "aqua",
+        "bold": true,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      },
       "minecraft:lore": [
         "\"Why should I be afraid now?\"",
         "\"Strange men have come to kill me ever since I was twelve years old.\""

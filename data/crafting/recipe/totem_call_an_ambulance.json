@@ -5,7 +5,15 @@
   "result": {
     "id": "minecraft:totem_of_undying",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Call An Ambulance Totem\",\"italic\":false,\"bold\":true,\"color\":\"red\"}",
+      "minecraft:item_name": {
+        "text": "Call An Ambulance Totem",
+        "color": "red",
+        "bold": true,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      },
       "minecraft:item_model": "custom:totem_call_an_ambulance",
       "minecraft:death_protection": {
         "death_effects": [

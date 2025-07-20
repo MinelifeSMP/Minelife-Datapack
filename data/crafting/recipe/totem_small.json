@@ -6,7 +6,15 @@
     "id": "minecraft:totem_of_undying",
     "components": {
       "minecraft:item_model": "custom:totem_small",
-      "minecraft:item_name": "{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Smaller Totem\",\"underlined\":false}"
+      "minecraft:item_name": {
+        "text": "Smaller Totem",
+        "color": "yellow",
+        "bold": true,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      }
     },
     "count": 1
   }
