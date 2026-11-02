@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "totems",
+  "ingredient": "minecraft:totem_of_undying",
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+      "minecraft:item_model": "custom:totem_fricaii",
+      "minecraft:item_name": {
+        "text": "Fricaii Totem",
+        "color": "red",
+        "bold": true,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      },
+      "minecraft:death_protection": {
+        "death_effects": [
+          {
+            "type": "minecraft:clear_all_effects"
+          },
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 1,
+                "duration": 900
+              },
+              {
+                "id": "minecraft:fire_resistance",
+                "amplifier": 0,
+                "duration": 800
+              },
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 1,
+                "duration": 100
+              }
+            ]
+          },
+          {
+            "type": "minecraft:play_sound",
+            "sound": {
+              "sound_id": "custom:fricaii_da_da_daaa",
+              "range": 50
+            }
+          }
+        ]
+      },
+      "minecraft:lore": [
+        "\"Sings weird songs occasionally.\""
+      ]
+    },
+    "count": 1
+  }
+}
