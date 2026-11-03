@@ -43,7 +43,7 @@
           {
             "type": "minecraft:play_sound",
             "sound": {
-              "sound_id": "custom:fricaii_da_da_daaa",
+              "sound_id": "custom:fricaii_da_da_daa",
               "range": 50
             }
           }
